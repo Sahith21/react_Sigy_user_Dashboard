@@ -1,5 +1,5 @@
 import React from 'react'
-import Landingpage from './Sigy/pages/landingpage'
+import Landingpage from './Sigy/pages/Landingpage'
 import {Routes,Route} from 'react-router-dom'
 import Productmenu from './Sigy/components/Productmenu'
 import './App.css'
