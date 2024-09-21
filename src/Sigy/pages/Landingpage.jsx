@@ -1,8 +1,8 @@
 import React from 'react'
-import Topbar from '../components/topbar'
+import Topbar from '../components/Topbar'
 import Itemsdisplay from '../components/Itemsdisplay'
-import Chains from '../components/chains'
-import Firmcollections from '../components/firmcollections'
+import Chains from '../components/Chains'
+import Firmcollections from '../components/Firmcollections'
 
 const Landingpage = () => {
   return (
