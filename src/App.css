@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topbarsection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    position: fixed;
+    width: 96%;
+    min-width: 80%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: white;
+}
+.companytitle h2{
+    color: orangered;
+}
+/*item section*/
+.itemtop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.itemsection{
+    display: flex;
+    overflow-x:hidden;
+}
+
+.gallery img{
+    width:150px;
+}
+/*landing page*/
+.landingsection{
+    padding: 0 100px;
+}
+/*chainsection*/
+.chainstop{
+    display: flex;
+    justify-content: space-between;
+}
+.chainsection{
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+    height: auto;
+}
+.vendorbox{
+border-radius: 10px;
+}
+.vendorbox img{
+    width: 350px;
+    height: 220px;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.6);
+
+}
+.firmdata{
+    padding-left: 10px;
+}
+.firmdata strong{
+    font-size:17px;
+}
+.firmdata div{
+    font-size: small;
+    color: rgb(95, 95, 95);
+}
+.btnsection{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    gap: 10px;
+}
+.btnsection button{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.btnicon{
+    font-size: x-large;
+}
+/*firmsection*/
+.filterbutton{
+    display: flex;
+    justify-content:space-around;
+}
+.filterbutton button{
+    padding: 5px 0;
+    width: 120px;
+    border-radius: 10px;
+    background-color:none;
+    border: none;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    font-weight: 500;
+}
+.activebutton{
+    background-color:white;
+}
+.firmsection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.firmgroup img{
+    width: 250px;
+    height: 180px;
+    flex: 0 0 auto;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.6);
+
+}
+.firmdetails div{
+    font-size: small;
+    color: rgb(95, 95, 95);
+}
+.firmoffer{
+    width:240px;
+    color: white;
+    position: absolute;
+    margin-top: -43px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-left: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: transparent;
+    background:linear-gradient(to bottom,rgba(50,0,0,0.08),black);
+}
+/* productsection */
+.productsection{
+   display: flex;
+   flex-direction: column;
+   padding: 0 200px;
+   margin-top: 100px;
+}
+.productbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    border-top: 2px solid rgb(178, 176, 176);
+}
+.productgroup img{
+    width: 100px;
+    border-radius: 5px;
+    position: relative;
+    flex:0 0 0 0;
+}
+.addbtn{
+    color:green;
+    width: 70px;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px ;
+    border: 1px solid lightgray;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.itemdescp{
+    color: rgb(95, 95,95);
+    font-size: small;
+}
+.Link{
+    color: black;
+    text-decoration: none;
+}
+/* loadersection */
+.loadersection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+@media(max-width:576px){
+    .topbarsection{
+        padding: 0 15px;
+    }
+    .userauth p{
+        font-size: small;
+    }
+    .landingsection{
+        padding: 0 10px;
+    }
+    .itemtop{
+        margin-top: 70px;
+    }
+    h2{
+        font-weight: 700;
+        font-size: medium;
+    }
+    .gallery img{
+        width: 90px;
+    }
+    .vendorbox img{
+        height: 150px;
+        width: 250px;
+    }
+    .firmdata strong{
+        font-size:15px;
+    }
+    .firmdata div{
+        font-size: x-small;
+        color: rgb(95, 95, 95);
+    }
+    .firmsection{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .firmgroupbox{
+        margin-top: 10px;
+        width: 310px;
+    }
+    .firmgroup img{
+        height: 210px;
+        width: 310px;
+    }
+    .firmoffer{
+        width: 300px;
+        margin-top: -52px;
+    }
+    .productsection{
+        display: flex;
+        flex-direction: column;
+        padding: 0 50px;
+        margin-top: 80px;
+     }
+     .productsection h1{
+        font-size: larger;
+        text-align: center;
+     }
+     .itemdescp{
+        color: rgb(95, 95,95);
+        font-size: x-small;
+    }
+    .productbox strong{
+        font-size:medium;
+    }
+    .filterbutton button{
+        width: 85px;
+    }
+    
+}
